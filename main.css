@@ -1,0 +1,85 @@
+/*header*/
+
+#main-header {
+	background: #000000;
+	color: white;
+	height: 4em;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: auto; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	z-index: 2;
+	font-family:'Source Sans Pro', sans-serif;
+}
+	#main-header a {
+		color: #fff;
+	}
+
+ #main-header p {
+	 font-family: sans-serif;
+	 float: left;
+	 margin-left: 50%;
+	 position: fixed;
+	 text-align: left;
+	 font-size: 1em;
+	 color: #fff;
+ }
+
+	#logo-header {
+		float: left;
+		padding: 10px 0 0 1em;
+		text-decoration: none;
+
+	}
+		#logo-header:hover {
+			color: #00dee5;
+		}
+
+		#logo-header .site-name {
+			margin-top: 0.1em;
+			display:inline-block;
+			font-weight: bold;
+			font-size: 2em;
+			vertical-align: middle;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+
+		#logo-header .site-desc {
+			display: inline-block;
+			font-weight: 400;
+			font-size: 1em;
+			color: #ebfb00;
+		}
+
+			
+	/* barra de navegacion- menú */
+	
+  nav {
+		float: right;
+	}
+		nav ul {
+			margin: auto;
+			padding: 0;
+			list-style: none;
+			padding-right: 20px;
+		}
+
+			nav ul li {
+				display: inline-block;
+				line-height: 4em;
+				padding: 0 10px 10px 10px;
+			}
+
+				nav ul li a {
+					display: inline-block;
+					padding: 0 10px 0 10px;
+					text-decoration: none;
+				}
+
+					nav ul li a:hover {
+
+						display: inline-block;
+						position: relative;
+						border-bottom: #00dee5 solid 0.2em;
+
+					}
